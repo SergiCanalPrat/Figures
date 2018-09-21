@@ -4,19 +4,20 @@ public class Figura {
     Rectangle rectangle = new Rectangle();
     Quadrat quadrat = new Quadrat();
     Cercle cercle = new Cercle();
+    Triangle triangle = new Triangle();
 
     public double CalcularArea (String figura, double costat1, double costat2, double radi){
         if (figura == "rectangle"){
-            area = Rectangle.area(costat1, costat2);
+            area = rectangle.area();
         }
         if (figura == "quadrat"){
-            area = Quadrat.area(costat);
+            area = quadrat.area();
         }
         if (figura == "cercle"){
-            area = Cercle.area(radi);
+            area = cercle.area();
         }
         if (figura == "triangle"){
-            area = Triangle.area(costat1, costat2);
+            area = triangle.area();
         }
     }
 }

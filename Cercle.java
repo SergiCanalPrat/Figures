@@ -1,9 +1,10 @@
 public class Cercle {
 
         public double radi;
-        public double area;
+        double area;
 
-        public double area(radi){
-            return Math.PI*radi*radi;
+        public double area(){
+            area = Math.PI*radi*radi;
+            return area;
         }
     }
