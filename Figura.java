@@ -2,6 +2,5 @@ public abstract class Figura {
     public double area;
     public String figura;
 
-    public abstract double calcularArea (){
-    }
+    public abstract double area();
 }
