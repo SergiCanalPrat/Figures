@@ -1,4 +1,4 @@
-public class Rectangle {
+public class Rectangle extends   Figura{
 
     public double costat1;
     public double costat2;

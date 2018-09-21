@@ -1,4 +1,4 @@
-public class Triangle {
+public class Triangle extends   Figura{
 
     public double costat1;
     public double costat2;

@@ -1,4 +1,4 @@
-public class Quadrat {
+public class Quadrat extends Figura{
 
     public double costat;
     public double area;

@@ -1,9 +1,9 @@
 public static void main(String [ ] args)
 {
     System.out.println("Àrea de la figura: ");
-    Figura figura = new Figura();
+    Figura figura;
 
-    double area = figura.CalcularArea("rectangle", 2, 3);
-
-
+    System.out.println("Area de un circulo de radio 2: ");
+    figura = new Cercle(2);
+    System.out.println(figura.area());
 }
