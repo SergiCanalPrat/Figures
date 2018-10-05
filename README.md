@@ -1,1 +1,2 @@
 # Figures
+Author: Sergi Canal
